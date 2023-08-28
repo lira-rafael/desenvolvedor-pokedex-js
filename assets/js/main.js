@@ -7,7 +7,7 @@ let offset = 0;
 
 function convertPokemonToli(pokemon) {
     return  `
-        <li class="pokemon ${pokemon.type}">
+        <li class="pokemon ${pokemon.type}"><a href="detail.html?id=${pokemon.number}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
         
